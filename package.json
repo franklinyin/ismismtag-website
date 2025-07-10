@@ -1,0 +1,27 @@
+{
+  "name": "ismismcube-server",
+  "version": "1.0.0",
+  "description": "主义主义魔方 - ISMISM Cube visualization server",
+  "main": "ismismcube-server.js",
+  "scripts": {
+    "start": "node ismismcube-server.js",
+    "dev": "node ismismcube-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sharp": "^0.32.6",
+    "cors": "^2.8.5",
+    "ws": "^8.14.2"
+  },
+  "keywords": [
+    "ismism",
+    "visualization",
+    "cube",
+    "philosophy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
